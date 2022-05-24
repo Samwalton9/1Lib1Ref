@@ -4,6 +4,9 @@ Used in the `update-1lib1ref` Toolforge tool.
 
 * Add a client_secret.json per the [gspread instructions](https://docs.gspread.org/en/latest/oauth2.html#enable-api-access-for-a-project).
 * `chmod +x update_1lib1ref.sh`
+* Follow the [Toolforge Kubernetes instructions](https://wikitech.wikimedia.org/wiki/Help:Toolforge/Python#Kubernetes_python_jobs) to bootstrap the venv.
+
+
 * Update `spreadsheet_key` in update_1lib1ref.py with the key for this year's spreadsheet
 * Update `dates` with the relevant date range
 * Update the list of hashtags (`hashtags`)
