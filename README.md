@@ -22,7 +22,7 @@ or schedule it for hourly runs with
 To get the script running for the latest campaign:
 * SSH in to Toolforge ([instructions](https://wikitech.wikimedia.org/wiki/Help:Toolforge)) and `become update-1lib1ref`
 * Edit `$HOME/1Lib1Ref/update_1lib1ref.py`
-** Replace the value of `spreadsheet_key` on line 9 with the key from this campaign's spreadsheet URL
-** Update `dates` on line 11 with the relevant campaign start and end dates
-** On line 26 update the list of hashtags to track
+  * Replace the value of `spreadsheet_key` on line 9 with the key from this campaign's spreadsheet URL
+  * Update `dates` on line 11 with the relevant campaign start and end dates
+  * On line 26 update the list of hashtags to track
 * Check `toolforge-jobs list` to confirm that the job is still scheduled.
